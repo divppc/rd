@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css"/>
+  <link rel="stylesheet" href="css/velostyle.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <title>RD</title>
+</head>
+<body data-hijacking="on" data-animation="scaleDown" class="view-main">
+  <header>
+    <div class="logo"><a href="#"><img src="images/ui/logo.png" alt="Roman Dobrik"/></a></div>
+    <div class="hire-btn">Hire me</div>
+    <nav>
+      <ul id="menu">
+        <li><a href="#" class="go-to-works">Work</a></li>
+        <li><a href="#" class="about-page">About me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section data-index="main" class="main hor">
+    <div class="toworks go-to-works">Work</div>
+    <div class="title">
+      <h1>
+        I’m Roman Dobrik 
+        Freelance designer 
+        specialising in branding 
+        web and UI/UX
+      </h1>
+      <p> based in Lviv, Ukraine.</p>
+    </div>
+    <div class="radial"><img src="images/ui/radial.gif" alt=""/></div>
+    <div class="social"><a href="#"><i>Facebook</i></a><a href="#"><i>Dribbble</i></a><a href="#"><i>Behance</i></a><a href="#"><i>Upwork</i></a></div>
+  </section>
+  <section data-index="work" class="work hor">
+    <div id="work1" class="ver active cd-section visible">
+      <div>
+        <div class="title">
+          <div class="work-title">Email Interface</div>
+          <div class="work-description">
+            An UI / UX esperiment with purple shades. 
+            I´ve been working on the branding & naming of a new photographer portfolio. It's coming out very soon. Just wanted to show you a little bit of what I´ve working on, the project page. It´s just a WIP but feel free to let me know if you have any comments.
+          </div>
+          <div class="follow"><a href="#"></a><a href="#"></a></div>
+        </div>
+        <div class="work-image"><img src="images/demo/work1.png" alt=""/></div>
+        <div class="nextwork cd-next"><a href="#">Next work</a></div>
+      </div>
+    </div>
+    <div id="work2" class="ver cd-section">
+      <div>
+        <div class="title">
+          <div class="work-title">Email Interface</div>
+          <div class="work-description">
+            An UI / UX esperiment with purple shades. 
+            I´ve been working on the branding & naming of a new photographer portfolio. It's coming out very soon. Just wanted to show you a little bit of what I´ve working on, the project page. It´s just a WIP but feel free to let me know if you have any comments.
+          </div>
+          <div class="follow"><a href="#"></a><a href="#"></a></div>
+        </div>
+        <div class="work-image"><img src="images/demo/work2.png" alt=""/></div>
+        <div class="nextwork cd-next"><a href="#">Next work</a></div>
+      </div>
+    </div>
+    <div id="work3" class="ver cd-section">
+      <div>
+        <div class="title">
+          <div class="work-title">Email Interface</div>
+          <div class="work-description">
+            An UI / UX esperiment with purple shades. 
+            I´ve been working on the branding & naming of a new photographer portfolio. It's coming out very soon. Just wanted to show you a little bit of what I´ve working on, the project page. It´s just a WIP but feel free to let me know if you have any comments.
+          </div>
+          <div class="follow"><a href="#"></a><a href="#"></a></div>
+        </div>
+        <div class="work-image"><img src="images/demo/work3.png" alt=""/></div>
+        <div class="to-about"><a href="#" class="about-page">About me</a></div>
+      </div>
+    </div>
+  </section>
+  <section data-index="about" class="about hor">
+    <div class="title"><span>About me</span>
+      <h2>
+        An UI / UX esperiment with purple shades. 
+        I´ve been working on the branding & naming of a new photographer portfolio. It's coming out very soon. Just wanted to show you a little bit of what I´ve working on, the project page. It´s just a WIP but feel free to let me know if you have any comments.
+      </h2>
+    </div>
+    <div class="social"><a href="#"><i>Facebook</i></a><a href="#"><i>Dribbble</i></a><a href="#"><i>Behance</i></a><a href="#"><i>Upwork</i></a></div>
+  </section>
+  <footer data-index="hire" class="hire-me hor">
+    <div class="hire-top">
+      <div class="hire-title">Hire me</div>
+      <div class="close-hire"><img src="images/ui/close-hire.png" alt=""/></div>
+    </div>
+    <div class="hire-wrap">
+      <div class="form-title">You Want Us to Do:</div>
+      <form action="mail.php" enctype="multipart/form-data" method="post" id="form">
+        <div class="form-group">
+          <div class="form-field">
+            <label for="form-name">Your name</label>
+            <input type="text" id="form-name" name="form-name" required="required"/>
+          </div>
+          <div class="form-field">
+            <label for="form-email">Email</label>
+            <input type="text" id="form-email" name="form-email" required="required"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-field">
+            <label for="form-type">I need</label>
+            <select id="form-type" name="form-type">
+              <option value="web-design">Web design</option>
+              <option value="web-design">Web design</option>
+              <option value="web-design">Web design</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="form-budjet">Budjet is</label>
+            <select id="form-budjet" name="form-budjet">
+              <option value="500">500$</option>
+              <option value="1500">1500$</option>
+              <option value="2500">2500$</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <div id="txt" class="form-field">
+            <label for="form-text">Project details</label>
+            <textarea id="form-text" name="form-text" placeholder="Your text"></textarea>
+          </div>
+        </div>
+        <input value="Send request" name="submit" type="submit" class="send-btn"/>
+        <label for="fileupl" class="upload-btn">Upload files
+          <input type="file" name="attachfile[]" multiple="multiple" id="fileupl"/>
+        </label>
+      </form>
+    </div>
+    <div class="social"><a href="#"><i>Facebook</i></a><a href="#"><i>Dribbble</i></a><a href="#"><i>Behance</i></a><a href="#"><i>Upwork</i></a></div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+  <script src="js/wheel-indicator.js"></script>
+  <script src="js/velocity.min.js"></script>
+  <script src="js/velocity.ui.min.js"></script>
+  <script src="js/main-scale.js"></script>
+  <script src="js/new2.js"></script>
+  
+  
+</body>
